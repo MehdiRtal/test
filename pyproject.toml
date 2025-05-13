@@ -1,0 +1,9 @@
+[project]
+name = "test"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "pip>=25.1.1",
+    "pulumi>=3.169.0",
+    "pulumi-kubernetes>=4.23.0",
+]
