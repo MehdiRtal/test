@@ -9,7 +9,7 @@ k8s.core.v1.Pod(
     spec=k8s.core.v1.PodSpecArgs(
         containers=[
             k8s.core.v1.ContainerArgs(
-                name="nginx-5",
+                name="nginx-6",
                 image="nginx:latest",
                 ports=[k8s.core.v1.ContainerPortArgs(container_port=80)],
             )
