@@ -4,8 +4,8 @@ import pulumi
 provider = k8s.Provider("k8s", render_yaml_to_directory="yaml")
 
 k8s.core.v1.Pod(
-    "nginx2",
-    metadata=k8s.meta.v1.ObjectMetaArgs(name="nginx", namespace="default"),
+    "nginx",
+    metadata=k8s.meta.v1.ObjectMetaArgs(name="nginx-2", namespace="default"),
     spec=k8s.core.v1.PodSpecArgs(
         containers=[
             k8s.core.v1.ContainerArgs(
