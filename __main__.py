@@ -11,7 +11,7 @@ k8s.core.v1.Pod(
     spec=k8s.core.v1.PodSpecArgs(
         containers=[
             k8s.core.v1.ContainerArgs(
-                name="nginx",
+                name="nginx-2",
                 image=config.get("image-name", "nginx"),
                 ports=[k8s.core.v1.ContainerPortArgs(container_port=80)],
             )
